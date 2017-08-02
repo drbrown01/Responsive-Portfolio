@@ -238,18 +238,22 @@ input[type=submit] {
   border: 0 none;
 }
 @media screen and (max-width: 980px) {
-
+body{
+  background-color: blue;
+}
 
 }
 @media screen and (max-width: 768px) {
 
 body{
   width: 768px;
+  background-color: red;
 }
 }
 @media screen and (max-width: 640px) {
   header{
     position: static;
+    background-color: yellow;
   }
 
 
