@@ -3,7 +3,9 @@ body {
   font-size: 18px;
   line-height: 34px;
   color: #777;
-  background: url("../images/concrete_seamless.png");
+  /*background: url("../images/p19.jpg");*/
+  background: url("../images/p19.jpg");
+  background-size:cover;
 }
 
 * {
@@ -246,14 +248,18 @@ body{
 @media screen and (max-width: 768px) {
 
 body{
-  width: 768px;
+  /*width: 768px;*/
   background-color: red;
+  background: black;
 }
 }
 @media screen and (max-width: 640px) {
+  body{
+      background-color: yellow;
+  }
   header{
     position: static;
-    background-color: yellow;
+
   }
 
 
